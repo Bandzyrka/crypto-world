@@ -1,7 +1,7 @@
 .cw__navbar
 {
     align-items: center;
-    padding: 2rem 6rem;
+    padding: 2rem 10rem;
     @media screen and (max-width: 900px){
         padding: 1rem 2rem;
     }
@@ -42,6 +42,7 @@
         position: relative;
         font-size: 25px;
         display: none;
+        
         @media screen and (max-width: 900px){
             display: flex;
         }
@@ -55,6 +56,8 @@
             flex-direction: column;
             padding: 1rem;
             border: 1px solid white;
+            background-color: var(--color-bg);
+        z-index: 100;
             p{
                 margin: 5px;
             }
